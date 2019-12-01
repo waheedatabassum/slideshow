@@ -1,0 +1,38 @@
+h1{
+	color: black;
+	position: fixed;
+	text-align: center;
+	left: 450px;
+	bottom: 650px;
+
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+    background: grey;
+}
+.slide{
+	width: 800px;
+	height: 550px;
+	background: url(slide2.jpg);
+	margin: 100px auto;
+	box-shadow: 5px 8px 8px 5px;
+	animation: slide 15s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url(slide2.jpg);
+	}
+    50%{
+		background: url(slide1.jpg);
+	
+	}
+	75%{
+		background: url(slide3.jpg);
+	}
+	100%{
+		background: url(slide4.jpg);
+	}
+}
